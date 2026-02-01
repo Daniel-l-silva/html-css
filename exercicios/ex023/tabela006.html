@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio Tabelas</title>
+ <style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    table{
+        width: 500px;
+        border-collapse: collapse;
+    }
+    caption {
+       font-size: 1.3em;
+       font-weight: bolder;
+        padding: 8px;
+    }
+    th, td{
+        border: 1px solid black;
+        padding: 8px;
+    }
+    .cnome{
+        background-color: blueviolet;
+
+    }
+    .cidade{
+        background-color: darkgreen;
+    }
+    div#container{
+     overflow-x: auto;
+    }
+ </style>
+</head>
+
+    <body>
+        <h1>Exercicio de Tabelas</h1>
+    
+       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, illum quam! Provident ea natus vel dolore repellat ab repellendus, aliquam, enim est dolor veritatis esse doloremque expedita excepturi dolorum distinctio.</p>
+    
+        <table>
+            <colgroup>
+                <col class="cnome">
+                <col class="csexo">
+                <col class="cidade" span="2">
+                <col class="cprof">
+            </colgroup>
+            <caption>Cadastro</caption>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Profissao</th>
+            </tr>
+            <tr>
+                <td>Ana Maria</td>
+                <td>f</td>
+                <td>25</td>
+                <td>Jornalista</td>
+            </tr>
+            <tr>
+                <td>Anderso</td>
+                <td>M</td>
+                <td>25</td>
+                <td>Mecanico</td>
+            </tr>
+            <tr>
+                <td>Ana Luiza</td>
+                <td>f</td>
+                <td>29</td>
+                <td>Diarista</td>
+            </tr>
+            <tr>
+                <td>Mario</td>
+                <td>M</td>
+                <td>19</td>
+                <td>Estudante</td>
+            </tr>
+            <tr>
+                <td>Helio</td>
+                <td>M</td>
+                <td>19</td>
+                <td>vendedor</td>
+            </tr>
+            <tr>
+                <td>Gustavo</td>
+                <td>M</td>
+                <td>19</td>
+                <td>Estudante</td>
+            </tr>
+        </table>
+        <P><BR>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa doloremque magnam provident nulla ad sint rerum aliquam recusandae ducimus, odit tenetur nihil maiores optio error repudiandae maxime autem at quisquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae doloremque, non eaque ducimus incidunt repellendus modi suscipit accusantium harum animi voluptas mollitia, illum asperiores expedita quibusdam? Aut blanditiis accusantium corporis! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores recusandae vitae, ipsum atque nesciunt eum ab odio nam non quasi! Mollitia atque quisquam, animi nam impedit hic eligendi ab quam.</P>
+
+    <div id="container">
+        <table>
+             <tr>
+            <th>Produtos</th>
+            <th>JAN</th>
+            <th>FEV</th>
+            <th>MAR</th>
+            <th>ABR</th>
+            <th>MAI</th>
+            <th>JUN</th>
+            <th>JUL</th>
+            <th>AGO</th>
+            <th>SET</th>
+            <th>OUT</th>
+            <th>NOV</th>
+            <th>DEZ</th>
+            </tr>
+         </table>
+    </div>
+    </body>
+
+</html>

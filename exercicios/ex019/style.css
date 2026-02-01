@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgba(24, 24, 243, 0.63); font-family: 'Courier New', Courier, monospace;
+    }
+    h1{
+        color: rgb(48, 26, 11);
+    }
+    h1#principal{
+text-align: center;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+background-color: rgba(0, 0, 255, 0.473);
+    }
+    .basico{
+        color: brown;
+  
+    }
+    .intermediario{
+        color: rgb(180, 108, 12);
+
+    }
+    .avançado{
+        color: chocolate;
+
+    }
