@@ -24,11 +24,12 @@ header {
   
 }
 header > h1 {
-    border: 1px dotted black;
+   /*border: 1px dotted black;*/
     flex: 0 0 200px;
+    text-shadow: 2px 2px 0px 0,0,0.404;
 }
 header > nav{
-    border: 1px dotted black;
+   /* border: 1px dotted black; */
     padding: 10px;
 
     display: flex;
@@ -45,7 +46,7 @@ header > nav > a {
     text-align: center;
 }
 header > nav > a:hover{
-    background-color:rgb(79, 23, 223);
+    background-color:rgb(75, 98, 213);
     color: black;
     transition: background-color .6s;
 }
@@ -54,5 +55,5 @@ main{
     margin: 10px;
     padding: 10px;
     border-radius: 10px;
-    box-shadow: 2px 2px 3px rgba(0,0,0.336);
+    box-shadow: 2px 2px 3px rgb(0, 0, 0);
 }
